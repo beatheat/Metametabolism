@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Diesel">
+      <UniqueIdentifier>{552963e0-0578-4262-8ed6-fe925d3beb36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\Engine">
+      <UniqueIdentifier>{3dd56ea7-8977-4c5d-b5d5-f694b0eb1f7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\Engine\FrameManager">
+      <UniqueIdentifier>{914c3385-b1bc-458c-b159-6df607c12913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\Scene">
+      <UniqueIdentifier>{c8ed8c79-e413-457b-b3c4-2bb720b6f866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\ResourceManager">
+      <UniqueIdentifier>{f386bbdf-4ad3-4a22-b8d9-d17648895621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\Function">
+      <UniqueIdentifier>{da47a3c0-e334-49e3-b02e-cf0f4fae3658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\Function\Math">
+      <UniqueIdentifier>{d453ed7e-9061-44b5-abf7-94bb9d0d627a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\Function\Random">
+      <UniqueIdentifier>{14b8f520-6d69-48fd-91bb-805b4559564d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\Function\Timer">
+      <UniqueIdentifier>{8cb2daaf-49c3-40e5-b6ef-e1413730eee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\Camera">
+      <UniqueIdentifier>{ad0a0288-f8da-4372-bf5f-52016cb60f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\Engine\Resource">
+      <UniqueIdentifier>{a7dc076e-6bad-4e9a-b8a3-cc6143c4d547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\Scene\SceneManager">
+      <UniqueIdentifier>{12eb733f-cfe7-401d-a07d-a03ab6fc0069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\System">
+      <UniqueIdentifier>{121142c2-4a5d-4b69-a875-8b9006e45af9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\Object">
+      <UniqueIdentifier>{02bdfa94-28ba-4da1-a99e-b587288cef16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\Clickable">
+      <UniqueIdentifier>{dce28a9b-328d-4957-81fb-2ab6591de5f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\KeyboardInput">
+      <UniqueIdentifier>{8df7f80b-d447-4f80-b288-b37346483900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\KeyboardInput\KeyCode">
+      <UniqueIdentifier>{4af16396-20c3-4cab-8fe3-633339237758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\KeyboardInput\KeyboardEvent">
+      <UniqueIdentifier>{2fd6e254-fe89-40c4-9bf0-c0760df42e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\MouseInput">
+      <UniqueIdentifier>{4dc6e0ca-53c7-4370-abff-d699456eae3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\MouseInput\MouseEvent">
+      <UniqueIdentifier>{09088b8d-794e-4ce0-95d4-39c128384956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\Collider">
+      <UniqueIdentifier>{2e554e2d-df65-4b68-b116-abd33256fdc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\AnimationManager">
+      <UniqueIdentifier>{209ab2f8-3662-4c44-be9a-9c98e5f47d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\AudioEngine">
+      <UniqueIdentifier>{fd47babb-4237-4c48-99bf-ce258d1bf278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\AudioEngine\SE">
+      <UniqueIdentifier>{a3af68bf-aaac-44ee-afb9-4efbde94be50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\AudioEngine\BGM">
+      <UniqueIdentifier>{17a67188-ffdb-408d-ac83-88898b715b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\Label">
+      <UniqueIdentifier>{edbc2b84-6d3a-4278-8467-6a7db7d2b51f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\Label\Font">
+      <UniqueIdentifier>{5fe954f6-93ae-4792-a35e-475e617a467b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\Timeline">
+      <UniqueIdentifier>{33110d10-0641-4671-8285-8edec9a96ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Title">
+      <UniqueIdentifier>{35b511f3-8602-4fa7-85d1-9ffd72372612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Title\Scene">
+      <UniqueIdentifier>{98b60893-44b4-455a-b37c-923850ed5452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Title\Object">
+      <UniqueIdentifier>{676f4919-0973-4c6e-b513-f0a344a6f4a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game">
+      <UniqueIdentifier>{c5b6c30a-842b-4a42-b1a4-4b3497958622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\Object">
+      <UniqueIdentifier>{39f55ede-6796-4616-b20d-3b531be0f8c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\Scene">
+      <UniqueIdentifier>{a34eda2e-ed3a-4c6b-bf6a-1034bed38066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\Data">
+      <UniqueIdentifier>{e1229ac1-d1ff-4715-b0ec-75c1040f77a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diesel\ResourceManager\TextureManager">
+      <UniqueIdentifier>{89337184-352f-4676-81cf-f1a56f00c1ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Fade">
+      <UniqueIdentifier>{972f8b17-3cdd-4efa-bfd9-0a3934220f27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\AnimationManager.cpp">
+      <Filter>Diesel\AnimationManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\AudioEngine.cpp">
+      <Filter>Diesel\AudioEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\SE.cpp">
+      <Filter>Diesel\AudioEngine\SE</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\BGM.cpp">
+      <Filter>Diesel\AudioEngine\BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\Camera.cpp">
+      <Filter>Diesel\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\Clickable.cpp">
+      <Filter>Diesel\Clickable</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\Collider.cpp">
+      <Filter>Diesel\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\Engine.cpp">
+      <Filter>Diesel\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\Resource.cpp">
+      <Filter>Diesel\Engine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\Frame.cpp">
+      <Filter>Diesel\Engine\FrameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\Math.cpp">
+      <Filter>Diesel\Function\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\Timer.cpp">
+      <Filter>Diesel\Function\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\Random.cpp">
+      <Filter>Diesel\Function\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\Function.cpp">
+      <Filter>Diesel\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\KeyboardInput.cpp">
+      <Filter>Diesel\KeyboardInput</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\KeyboardEvent.cpp">
+      <Filter>Diesel\KeyboardInput\KeyboardEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\Label.cpp">
+      <Filter>Diesel\Label</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\FontManager.cpp">
+      <Filter>Diesel\Label\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\MouseInput.cpp">
+      <Filter>Diesel\MouseInput</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\MouseEvent.cpp">
+      <Filter>Diesel\MouseInput\MouseEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\Object.cpp">
+      <Filter>Diesel\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\ResourceManager.cpp">
+      <Filter>Diesel\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\Scene.cpp">
+      <Filter>Diesel\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\SceneManager.cpp">
+      <Filter>Diesel\Scene\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\System.cpp">
+      <Filter>Diesel\System</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\Timeline.cpp">
+      <Filter>Diesel\Timeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>소스 파일\Title\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>소스 파일\Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>소스 파일\Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>소스 파일\Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>소스 파일\Game\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DieselEngine\TextureManager.cpp">
+      <Filter>Diesel\ResourceManager\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>소스 파일\Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeOut.cpp">
+      <Filter>소스 파일\Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeIn.cpp">
+      <Filter>소스 파일\Fade</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DieselEngine\AnimationManager.h">
+      <Filter>Diesel\AnimationManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\AudioEngine.h">
+      <Filter>Diesel\AudioEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\SE.h">
+      <Filter>Diesel\AudioEngine\SE</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\BGM.h">
+      <Filter>Diesel\AudioEngine\BGM</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\Camera.h">
+      <Filter>Diesel\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\Clickable.h">
+      <Filter>Diesel\Clickable</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\Collider.h">
+      <Filter>Diesel\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\Engine.h">
+      <Filter>Diesel\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\Resource.h">
+      <Filter>Diesel\Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\Frame.h">
+      <Filter>Diesel\Engine\FrameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\Math.h">
+      <Filter>Diesel\Function\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\Timer.h">
+      <Filter>Diesel\Function\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\Random.h">
+      <Filter>Diesel\Function\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\Function.h">
+      <Filter>Diesel\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\KeyboardInput.h">
+      <Filter>Diesel\KeyboardInput</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\KeyCode.h">
+      <Filter>Diesel\KeyboardInput\KeyCode</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\KeyboardEvent.h">
+      <Filter>Diesel\KeyboardInput\KeyboardEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\Label.h">
+      <Filter>Diesel\Label</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\FontManager.h">
+      <Filter>Diesel\Label\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\MouseInput.h">
+      <Filter>Diesel\MouseInput</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\MouseEvent.h">
+      <Filter>Diesel\MouseInput\MouseEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\Object.h">
+      <Filter>Diesel\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\ResourceManager.h">
+      <Filter>Diesel\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\Scene.h">
+      <Filter>Diesel\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\SceneManager.h">
+      <Filter>Diesel\Scene\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\System.h">
+      <Filter>Diesel\System</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\Timeline.h">
+      <Filter>Diesel\Timeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Diesel.h">
+      <Filter>Diesel</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>소스 파일\Title\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>소스 파일\Title\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>소스 파일\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>소스 파일\Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>소스 파일\Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>소스 파일\Game\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>소스 파일\Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="DieselEngine\TextureManager.h">
+      <Filter>Diesel\ResourceManager\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>소스 파일\Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeOut.h">
+      <Filter>소스 파일\Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeIn.h">
+      <Filter>소스 파일\Fade</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

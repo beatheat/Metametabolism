@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{25B89DC6-057D-4662-B021-D664422AD2A6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\parks\Dropbox\SDL2_ttf-2.0.14\include;C:\Users\parks\Dropbox\SDL2_mixer-2.0.1\include;C:\Users\parks\Dropbox\SDL2_image-2.0.1\include;C:\Users\parks\Dropbox\SDL2-2.0.5\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\parks\Dropbox\SDL2-2.0.5\lib\x86;C:\Users\parks\Dropbox\SDL2_ttf-2.0.14\lib\x86;C:\Users\parks\Dropbox\SDL2_mixer-2.0.1\lib\x86;C:\Users\parks\Dropbox\SDL2_image-2.0.1\lib\x86;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>./DLLs\;$(ExecutablePath)</ExecutablePath>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="Data.cpp" />
+    <ClCompile Include="DieselEngine\AnimationManager.cpp" />
+    <ClCompile Include="DieselEngine\AudioEngine.cpp" />
+    <ClCompile Include="DieselEngine\BGM.cpp" />
+    <ClCompile Include="DieselEngine\Camera.cpp" />
+    <ClCompile Include="DieselEngine\Clickable.cpp" />
+    <ClCompile Include="DieselEngine\Collider.cpp" />
+    <ClCompile Include="DieselEngine\Engine.cpp" />
+    <ClCompile Include="DieselEngine\FontManager.cpp" />
+    <ClCompile Include="DieselEngine\Frame.cpp" />
+    <ClCompile Include="DieselEngine\Function.cpp" />
+    <ClCompile Include="DieselEngine\KeyboardEvent.cpp" />
+    <ClCompile Include="DieselEngine\KeyboardInput.cpp" />
+    <ClCompile Include="DieselEngine\Label.cpp" />
+    <ClCompile Include="DieselEngine\Math.cpp" />
+    <ClCompile Include="DieselEngine\MouseEvent.cpp" />
+    <ClCompile Include="DieselEngine\MouseInput.cpp" />
+    <ClCompile Include="DieselEngine\Object.cpp" />
+    <ClCompile Include="DieselEngine\Random.cpp" />
+    <ClCompile Include="DieselEngine\Resource.cpp" />
+    <ClCompile Include="DieselEngine\ResourceManager.cpp" />
+    <ClCompile Include="DieselEngine\Scene.cpp" />
+    <ClCompile Include="DieselEngine\SceneManager.cpp" />
+    <ClCompile Include="DieselEngine\SE.cpp" />
+    <ClCompile Include="DieselEngine\System.cpp" />
+    <ClCompile Include="DieselEngine\TextureManager.cpp" />
+    <ClCompile Include="DieselEngine\Timeline.cpp" />
+    <ClCompile Include="DieselEngine\Timer.cpp" />
+    <ClCompile Include="FadeIn.cpp" />
+    <ClCompile Include="FadeOut.cpp" />
+    <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="Human.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="UI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="Diesel.h" />
+    <ClInclude Include="DieselEngine\AnimationManager.h" />
+    <ClInclude Include="DieselEngine\AudioEngine.h" />
+    <ClInclude Include="DieselEngine\BGM.h" />
+    <ClInclude Include="DieselEngine\Camera.h" />
+    <ClInclude Include="DieselEngine\Clickable.h" />
+    <ClInclude Include="DieselEngine\Collider.h" />
+    <ClInclude Include="DieselEngine\Engine.h" />
+    <ClInclude Include="DieselEngine\FontManager.h" />
+    <ClInclude Include="DieselEngine\Frame.h" />
+    <ClInclude Include="DieselEngine\Function.h" />
+    <ClInclude Include="DieselEngine\KeyboardEvent.h" />
+    <ClInclude Include="DieselEngine\KeyboardInput.h" />
+    <ClInclude Include="DieselEngine\KeyCode.h" />
+    <ClInclude Include="DieselEngine\Label.h" />
+    <ClInclude Include="DieselEngine\Math.h" />
+    <ClInclude Include="DieselEngine\MouseEvent.h" />
+    <ClInclude Include="DieselEngine\MouseInput.h" />
+    <ClInclude Include="DieselEngine\Object.h" />
+    <ClInclude Include="DieselEngine\Random.h" />
+    <ClInclude Include="DieselEngine\Resource.h" />
+    <ClInclude Include="DieselEngine\ResourceManager.h" />
+    <ClInclude Include="DieselEngine\Scene.h" />
+    <ClInclude Include="DieselEngine\SceneManager.h" />
+    <ClInclude Include="DieselEngine\SE.h" />
+    <ClInclude Include="DieselEngine\System.h" />
+    <ClInclude Include="DieselEngine\TextureManager.h" />
+    <ClInclude Include="DieselEngine\Timeline.h" />
+    <ClInclude Include="DieselEngine\Timer.h" />
+    <ClInclude Include="FadeIn.h" />
+    <ClInclude Include="FadeOut.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="Graph.h" />
+    <ClInclude Include="Human.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="Data.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
